@@ -108,3 +108,29 @@ nav:
     - Time:
       - Timer and timekeeping: concurrency/time.md
       - hrtimer: concurrency/hrtimer.md
+  - Drivers:
+    - Overview:
+      - Kernel modules: drivers/kernel-modules.md
+      - Driver model: drivers/driver-model.md
+      - udev: drivers/udev.md
+    - Hardware Descriptions:
+      - Device tree: drivers/device-tree.md
+      - ACPI: drivers/acpi.md
+    - Buses (non-numerable):
+      - I2C: drivers/i2c.md
+      - SPI: drivers/spi.md
+      - Platform: drivers/platform-bus.md
+    - Buses (enumerable):
+      - USB: drivers/usb.md
+      - PCIe: drivers/pci.md
+    - Hardware Resources:
+      - GPIO: drivers/gpio.md
+      - Interrupts: drivers/interrupts.md
+      - pinctrl: drivers/pinctrl.md
+      - Clocks: drivers/clocks.md
+      - regmap: drivers/regmap.md
+      - DMA: drivers/dma.md
+      - firmware: drivers/firmware.md
+    - Other topics:
+      - DT schema: drivers/dt-schema.md
+      - device_link: drivers/device_link.md
