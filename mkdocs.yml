@@ -77,3 +77,34 @@ nav:
       - SPARSE: debugging/sparse.md
       - smatch: debugging/smatch.md
       - coccinelle: debugging/coccinelle.md
+  - Concurrency:
+    - Sources of concurrency:
+      - IRQ: concurrency/irq.md
+      - softirq: concurrency/softirq.md
+      - preemption: concurrency/preemption.md
+    - Work deferring:
+      - Workqueue: concurrency/workqueue.md
+      - tasklet: concurrency/tasklet.md
+      - Threaded IRQ: concurrency/threaded-irq.md
+    - Locking:
+      - spinlock: concurrency/spinlock.md
+      - mutex: concurrency/mutex.md
+      - semaphore: concurrency/semaphore.md
+      - RCU: concurrency/rcu.md
+    - Schedulers:
+      - Overview: concurrency/scheduler-overview.md
+      - Processes: concurrency/processes.md
+      - fair_sched: concurrency/fair_sched.md
+      - rt_sched: concurrency/rt_sched.md
+      - dl_sched: concurrency/dl_sched.md
+    - Memory model:
+      - Compiler barriers: concurrency/compiler-barriers.md
+      - CPU barriers: concurrency/cpu-barriers.md
+      - Memory model: concurrency/memory-model.md
+    - System calls:
+      - System call: concurrency/system-calls.md
+      - vDSO: concurrency/vdso.md
+      - strace: concurrency/strace.md
+    - Time:
+      - Timer and timekeeping: concurrency/time.md
+      - hrtimer: concurrency/hrtimer.md
