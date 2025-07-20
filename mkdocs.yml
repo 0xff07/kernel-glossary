@@ -43,3 +43,37 @@ nav:
       - Kernel compilation (native): workflows/compiling-kernel-native.md
       - Kernel compilation (cross): workflows/compiling-kernel-cross.md
       - Kernel binaries: workflows/kernel-binaries.md
+  - Debugging:
+    - Overview:
+      - Debugging overview: debugging/debugging-overview.md
+    - Print debugging:
+      - Dynamic debug: debugging/dynamic-debug.md
+      - debugfs: debugging/debugfs.md
+    - Call traces:
+      - Analyze call traces: debugging/call-trace-analysis.md
+      - decode_stacktrace.sh: debugging/decode_stacktrace.md
+      - pstore: debugging/pstore.md
+    - Postmoterm:
+      - kdump:  debugging/kdump.md
+      - drgn: debugging/drgn.md
+      - kgdb: debugging/kgdb.md
+    - Kernel tracing:
+      - Tracing overview: debugging/tracing-overview.md
+      - ftrace (trace-cmd): debugging/trace-cmd.md
+      - ftrace (tracefs): debugging/tracefs.md
+      - bpftrace: debugging/bpftrace.md
+      - Event sources: debugging/event-sources.md
+      - Tracepoints: debugging/tracepoints.md
+      - Kprobes: debugging/kprobe.md
+    - Sanitizers:
+      - Overview: debugging/sanitizer-overview.md
+      - KASAN: debugging/kasan.md
+      - KMEMLEAD: debugging/kmemleak.md
+      - KFENCE: debugging/kfence.md
+      - KCSAN: debugging/kcsan.md
+      - UBSAN:  debugging/ubsan.md
+      - Lockdep: debugging/lockdep.md
+    - Static checks:
+      - SPARSE: debugging/sparse.md
+      - smatch: debugging/smatch.md
+      - coccinelle: debugging/coccinelle.md
