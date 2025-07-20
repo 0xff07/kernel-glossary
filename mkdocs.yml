@@ -1,10 +1,6 @@
 site_name: Kernel Glossary
 theme:
   name: material
-  features:
-    - navigation.expand
-    - navigation.path
-    - navigation.tabs
 plugins:
   - search
   - tags
