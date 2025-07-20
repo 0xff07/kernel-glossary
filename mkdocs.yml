@@ -11,4 +11,35 @@ plugins:
 
 nav:
   - Tags: TAGS.md
-
+  - Development Process:
+    - The kernel community:
+      - Overview: workflows/development-process.md
+      - Release model: workflows/kernel-release-model.md
+      - Stable releases: workflows/stable-releases.md
+      - Coding patterns: workflows/kernel-coding-patterns.md
+      - Upstreaming process: workflows/upstreaming-process.md
+  - Tooling:
+    - Git:
+      - git basics: workflows/git-basics.md
+      - git interrogators: workflows/git-interrogators.md
+      - git bisect: workflows/git-bisect.md
+      - git worktree: workflows/git-worktree.md
+      - git rebase (interactive): workflows/git-rebase-interactive.md
+      - git rebase: workflows/git-rebase.md
+    - Finding patches:
+      - Xapian Query Syntax: workflows/xapian-query-syntax.md
+      - lei: workflows/lei.md
+    - Applying patches:
+      - git cherry-pick: workflows/git-cherry-pick.md
+      - Backporting: workflows/backporting.md
+      - Applying .mbox and .patch: workflows/applying-patches.md
+    - Sending patches:
+      - git send-email: workflows/git-send-email.md
+      - b4: workflows/b4.md
+      - patman: workflows/patman.md
+    - Building the kernel:
+      - Kconfig: workflows/kconfig.md
+      - Kbuild: workflows/kbuild.md
+      - Kernel compilation (native): workflows/compiling-kernel-native.md
+      - Kernel compilation (cross): workflows/compiling-kernel-cross.md
+      - Kernel binaries: workflows/kernel-binaries.md
