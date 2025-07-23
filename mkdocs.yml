@@ -130,3 +130,29 @@ nav:
     - Other topics:
       - DT schema: drivers/dt-schema.md
       - device_link: drivers/device_link.md
+  - Power Management:
+    - Overview:
+      - PM Frameworks: pm/pm-overview.md
+    - System-wide suspend:
+      - System-wide suspend: pm/system-wide-suspend.md
+      - Suspend-to-idle: pm/s2idle-freeze.md
+      - Standby: pm/standby.md
+      - Suspend-to-ram: pm/s2ram-deep.md
+    - Other System-wide suspend topics:
+      - Modern Standby (S0ix): pm/s0ix.md
+      - ACPI S-States: pm/acpi-s-states.md
+    - Device Runtime Power Management:
+      - Runtime PM: pm/runtime-pm.md
+      - PM Domain (genpd): pm/pm-domain.md
+    - CPU Runtime Power Management:
+      - cpufreq: pm/cpufreq.md
+      - OPP: pm/opp.md
+      - ACPI P-States: pm/acpi-p-states.md
+    - PM QoS:
+      - PM QoS: pm/qos.md
+    - CPU Idle:
+      - cpuidle: pm/cpuidle.md
+      - ACPI C-States: pm/acpi-c-states.md
+    - Thermal Management:
+      - Thermal subsystem: pm/thermal.md
+      - thermald: pm/thermald.md
