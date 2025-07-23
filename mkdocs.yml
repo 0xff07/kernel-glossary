@@ -156,3 +156,34 @@ nav:
     - Thermal Management:
       - Thermal subsystem: pm/thermal.md
       - thermald: pm/thermald.md
+  - Graphics:
+    - Display Interfaces:
+      - VGA: drm/vga.md
+      - RGB: drm/rgb.md
+      - LVDS: drm/lvds.md
+      - HDMI: drm/hdmi.md
+      - DisplayPort: drm/dp.md
+      - DP-MST: drm/dp-mst.md
+      - EDID: drm/edid.md
+    - Display Pipeline:
+      - Display Pipeline: drm/display-pipeline.md
+      - KMS: drm/kms.md
+      - Atomic KMS: drm/kms-atomic.md
+      - KMS Bridges: drm/kms-bridges.md
+    - Rendering Pipeline:
+      - Rendering Pipeline: drm/rendering-pipeline.md
+      - DRI: drm/drm.md
+    - Sample drivers:
+      - vkms: drm/vkms.md
+      - simpledrm: drm/simpledrm.md
+    - Userspace Components:
+      - libdrm: drm/libdrm.md
+      - Mesa: drm/mesa.md
+      - Wayland protocol: drm/wayland-protocol.md
+      - Mutter: drm/mutter.md
+      - libinput: drm/libinput.md
+    - Tools:
+      - igt-gpu-toos: drm/igt-gpu-tools.md
+      - KUnit tests: drm/drm-kunit.md
+      - DRM-CI: drm/drm-ci.md
+      - apitrace: drm/apitrace.md
