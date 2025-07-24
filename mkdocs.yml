@@ -6,7 +6,6 @@ plugins:
   - tags
 
 nav:
-  - Tags: TAGS.md
   - Development Process:
     - The kernel community:
       - Overview: workflows/development-process.md
@@ -187,3 +186,4 @@ nav:
       - KUnit tests: drm/drm-kunit.md
       - DRM-CI: drm/drm-ci.md
       - apitrace: drm/apitrace.md
+  - Tags: TAGS.md
