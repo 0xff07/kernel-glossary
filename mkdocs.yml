@@ -6,6 +6,7 @@ plugins:
   - tags
 
 nav:
+  - README: README.md
   - Development Process:
     - The kernel community:
       - Overview: workflows/development-process.md
