@@ -10,6 +10,8 @@
       
       
       
+        <link rel="next" href="workflows/development-process/">
+      
       
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
@@ -94,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kernel Glossary
+              README
             
           </span>
         </div>
@@ -187,20 +189,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="TAGS/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Tags
+    README
     
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -5419,6 +5431,28 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TAGS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -5439,32 +5473,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#policy" class="md-nav__link">
-    <span class="md-ellipsis">
-      Policy
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -5480,27 +5488,10 @@
 
 
 <h1 id="kernel-glossary">Kernel Glossary</h1>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    workflows/  # Kernel release model and upstreaming process.
-    debugging/  # General debugging tools
-    ...
-</code></pre>
-<h2 id="policy">Policy</h2>
-<ol>
-<li>File names are separated with dash (-), unless it's meant for </li>
-<li>
-<p>Markdown files that are not for functional purposes of Mkdocs itself (e.g. index.md) must be tagged (in the YAML front matter) according to directory they reside:</p>
-<ul>
-<li><code>workflows/</code>: <code>tooling</code> for a specific command line tool, or <code>workflows</code> for processes.</li>
-<li><code>debugging/</code>: <code>debugging</code></li>
-<li><code>concurrency/</code>: <code>concurrency</code></li>
-<li><code>drivers/</code>: <code>drivers</code></li>
-</ul>
-<p>This location-based tagging is mandatory. They could optionally have more tags.</p>
-</li>
-</ol>
+<p>Welcome to the <a href="https://github.com/0xff07/kernel-glossary">0xff07/kernel-glossary</a>. You can find the webpage version of this repository on:</p>
+<p><a href="https://0xff07.github.io/kernel-glossary">https://0xff07.github.io/kernel-glossary</a>.</p>
+<p>This is a place where I dump breadcrumbs of kernel subsystems, mostly conference videos. At first, I made this mostly because they make really good stories about the kernel, and it happens that I enjoy both learning Linux and listening to stories. A more practical purpose is to learn subsystems faster when the necessity arises. A more stressful way, but I always feel refreshed when I see a living subsystem face to face. It's like the magical feeling of touching snow for the first time. </p>
+<p>This is still a work in progress, but I doubt that it'll ever be finished. It's like drawing a map for a place where the landscape changes weekly. That being said, exploration is part of the fun. My hope is that by creating this, I'm also sharing the joy of exploration with people who might also be interested in the kernel. So here we are!</p>
 
 
 
