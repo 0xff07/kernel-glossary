@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../spinlock/">
+        <link rel="prev" href="../soundwire/">
       
       
-        <link rel="next" href="../semaphore/">
+        <link rel="next" href="../wireplumber/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>mutex - Kernel Glossary</title>
+        <title>Pipewire - Kernel Glossary</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mutex" class="md-skip">
+        <a href="#pipewire" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              mutex
+              Pipewire
             
           </span>
         </div>
@@ -2118,20 +2118,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -2147,7 +2145,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Concurrency
@@ -2199,7 +2197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../irq/" class="md-nav__link">
+      <a href="../../concurrency/irq/" class="md-nav__link">
         
   
   
@@ -2222,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../softirq/" class="md-nav__link">
+      <a href="../../concurrency/softirq/" class="md-nav__link">
         
   
   
@@ -2245,7 +2243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../preemption/" class="md-nav__link">
+      <a href="../../concurrency/preemption/" class="md-nav__link">
         
   
   
@@ -2314,7 +2312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../workqueue/" class="md-nav__link">
+      <a href="../../concurrency/workqueue/" class="md-nav__link">
         
   
   
@@ -2337,7 +2335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tasklet/" class="md-nav__link">
+      <a href="../../concurrency/tasklet/" class="md-nav__link">
         
   
   
@@ -2360,7 +2358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../threaded-irq/" class="md-nav__link">
+      <a href="../../concurrency/threaded-irq/" class="md-nav__link">
         
   
   
@@ -2388,20 +2386,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
         
           
           <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
@@ -2417,7 +2413,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
             Locking
@@ -2431,7 +2427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../spinlock/" class="md-nav__link">
+      <a href="../../concurrency/spinlock/" class="md-nav__link">
         
   
   
@@ -2451,32 +2447,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    mutex
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../concurrency/mutex/" class="md-nav__link">
         
   
   
@@ -2487,59 +2461,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      References
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="References">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#videos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Videos
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
-    <span class="md-ellipsis">
-      Links
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2552,7 +2473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../semaphore/" class="md-nav__link">
+      <a href="../../concurrency/semaphore/" class="md-nav__link">
         
   
   
@@ -2575,7 +2496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rcu/" class="md-nav__link">
+      <a href="../../concurrency/rcu/" class="md-nav__link">
         
   
   
@@ -2644,7 +2565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../scheduler-overview/" class="md-nav__link">
+      <a href="../../concurrency/scheduler-overview/" class="md-nav__link">
         
   
   
@@ -2667,7 +2588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../processes/" class="md-nav__link">
+      <a href="../../concurrency/processes/" class="md-nav__link">
         
   
   
@@ -2690,7 +2611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fair_sched/" class="md-nav__link">
+      <a href="../../concurrency/fair_sched/" class="md-nav__link">
         
   
   
@@ -2713,7 +2634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rt_sched/" class="md-nav__link">
+      <a href="../../concurrency/rt_sched/" class="md-nav__link">
         
   
   
@@ -2736,7 +2657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dl_sched/" class="md-nav__link">
+      <a href="../../concurrency/dl_sched/" class="md-nav__link">
         
   
   
@@ -2805,7 +2726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../compiler-barriers/" class="md-nav__link">
+      <a href="../../concurrency/compiler-barriers/" class="md-nav__link">
         
   
   
@@ -2828,7 +2749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cpu-barriers/" class="md-nav__link">
+      <a href="../../concurrency/cpu-barriers/" class="md-nav__link">
         
   
   
@@ -2851,7 +2772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../memory-model/" class="md-nav__link">
+      <a href="../../concurrency/memory-model/" class="md-nav__link">
         
   
   
@@ -2920,7 +2841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../system-calls/" class="md-nav__link">
+      <a href="../../concurrency/system-calls/" class="md-nav__link">
         
   
   
@@ -2943,7 +2864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vdso/" class="md-nav__link">
+      <a href="../../concurrency/vdso/" class="md-nav__link">
         
   
   
@@ -2966,7 +2887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strace/" class="md-nav__link">
+      <a href="../../concurrency/strace/" class="md-nav__link">
         
   
   
@@ -3035,7 +2956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../time/" class="md-nav__link">
+      <a href="../../concurrency/time/" class="md-nav__link">
         
   
   
@@ -3058,7 +2979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hrtimer/" class="md-nav__link">
+      <a href="../../concurrency/hrtimer/" class="md-nav__link">
         
   
   
@@ -5528,18 +5449,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
         
           
           <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
@@ -5555,7 +5478,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Audio
@@ -5607,7 +5530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/alsa-ucm-conf/" class="md-nav__link">
+      <a href="../alsa-ucm-conf/" class="md-nav__link">
         
   
   
@@ -5630,7 +5553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/alsa-lib/" class="md-nav__link">
+      <a href="../alsa-lib/" class="md-nav__link">
         
   
   
@@ -5699,7 +5622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/alsa/" class="md-nav__link">
+      <a href="../alsa/" class="md-nav__link">
         
   
   
@@ -5722,7 +5645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/asoc/" class="md-nav__link">
+      <a href="../asoc/" class="md-nav__link">
         
   
   
@@ -5745,7 +5668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/dapm/" class="md-nav__link">
+      <a href="../dapm/" class="md-nav__link">
         
   
   
@@ -5814,7 +5737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/soundwire/" class="md-nav__link">
+      <a href="../soundwire/" class="md-nav__link">
         
   
   
@@ -5842,18 +5765,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" checked>
         
           
           <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
@@ -5869,7 +5794,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10_4">
             <span class="md-nav__icon md-icon"></span>
             Userspace Services
@@ -5880,10 +5805,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../sound/pipewire/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pipewire
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -5894,6 +5841,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="References">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Videos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -5906,7 +5897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/wireplumber/" class="md-nav__link">
+      <a href="../wireplumber/" class="md-nav__link">
         
   
   
@@ -5929,7 +5920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/pulseaudio/" class="md-nav__link">
+      <a href="../pulseaudio/" class="md-nav__link">
         
   
   
@@ -5998,7 +5989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/sof/" class="md-nav__link">
+      <a href="../sof/" class="md-nav__link">
         
   
   
@@ -6021,7 +6012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sound/hda/" class="md-nav__link">
+      <a href="../hda/" class="md-nav__link">
         
   
   
@@ -6097,15 +6088,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
-    <span class="md-ellipsis">
-      Links
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -6130,28 +6112,20 @@
       
       
       
-        <a href="../../TAGS/#tag:concurrency" class="md-tag">concurrency</a>
-      
-    
-      
-      
-      
-        <a href="../../TAGS/#tag:locking" class="md-tag">locking</a>
+        <a href="../../TAGS/#tag:sound" class="md-tag">sound</a>
       
     
   </nav>
 
 
 
-<h1 id="mutex">mutex</h1>
+<h1 id="pipewire">Pipewire</h1>
 <h2 id="references">References</h2>
+<p>May also refer to other wirepluumber talks. They usually include some clues to pipewire as well.</p>
 <h3 id="videos">Videos</h3>
 <ul>
-<li><a href="https://youtu.be/ga3v3jux7r0">Let's code a Linux Driver - 28: Mutex exclusive access to shared resources</a></li>
-</ul>
-<h3 id="links">Links</h3>
-<ul>
-<li><a href="https://docs.kernel.org/kernel-hacking/locking.html"><em>Unreliable Guide To Locking</em></a> on kernel doc.</li>
+<li><a href="https://youtu.be/JFhUtphvDXg">Pipewire as the heart of Linux-based audio system (Philip-Dylan Gleonec, Savoir Faire Linux)</a></li>
+<li><a href="https://youtu.be/1w6yVqU0lkU">PipeWire: The New Multimedia Service, Now Ready for Automotive | ELCNA 2020</a></li>
 </ul>
 
 
