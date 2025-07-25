@@ -188,3 +188,20 @@ nav:
       - KUnit tests: drm/drm-kunit.md
       - DRM-CI: drm/drm-ci.md
       - apitrace: drm/apitrace.md
+  - Audio:
+    - ALSA (userspace):
+      - alsa-ucm-conf: sound/alsa-ucm-conf.md
+      - alsalib (libasound): sound/alsa-lib.md
+    - ALSA (kernel):
+      - ALSA: sound/alsa.md
+      - ASoC: sound/asoc.md
+      - DAPM: sound/dapm.md
+    - Audio Interfaces:
+      - Soundwire: sound/soundwire.md
+    - Userspace Services:
+      - Pipewire: sound/pipewire.md
+      - Wireplumber: sound/wireplumber.md
+      - PulseAudio: sound/pulseaudio.md
+    - Platform-specific:
+      - Sound Open Firmware (SoF): sound/sof.md
+      - HDA: sound/hda.md
