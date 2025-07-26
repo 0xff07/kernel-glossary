@@ -23,4 +23,5 @@ This is a very huge topic spanning 6 generations of specifications (and PCIe 7 h
 ### Links
 
 - [Debugging PCIe Issues using lspci and setpci](https://adaptivesupport.amd.com/s/article/1148199)
+- [PCIe Tips and Tricks from Xilinx Wiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1883865089/PCIe+Tips+and+Tricks)
 

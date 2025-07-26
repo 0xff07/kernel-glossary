@@ -15,6 +15,7 @@ tags:
 
 ### Links
 
+- [Xilinx Wiki/Linux Loadable Kernel Modules](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/96960682/Linux+Loadable+Kernel+Modules)
 - [*Dynamic kernel device management with udev*](https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-udev.html)
 - [*An introduction to Udev: The Linux subsystem for managing device events*](https://opensource.com/article/18/11/udev)
 - [*udev: Device Manager for the Linux Kernel in Userspace*](https://insujang.github.io/2018-11-27/udev-device-manager-for-the-linux-kernel-in-userspace/)
