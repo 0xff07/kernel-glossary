@@ -40,6 +40,9 @@ nav:
       - Kernel compilation (native): workflows/compiling-kernel-native.md
       - Kernel compilation (cross): workflows/compiling-kernel-cross.md
       - Kernel binaries: workflows/kernel-binaries.md
+    - AI tooling:
+      - AUTOSEL: workflows/autosel.md
+      - AI-assisted coding: workflows/ai-assisted-coding.md
   - Debugging:
     - Overview:
       - Debugging overview: debugging/debugging-overview.md
