@@ -14,6 +14,7 @@ nav:
       - Release model: workflows/kernel-release-model.md
       - Stable releases: workflows/stable-releases.md
       - Coding patterns: workflows/kernel-coding-patterns.md
+      - Patch format: workflows/patch-format.md
       - Upstreaming process: workflows/upstreaming-process.md
   - Tooling:
     - Git:
