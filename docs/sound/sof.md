@@ -22,3 +22,9 @@ tags:
 - [Build SOF with Zephyr](https://thesofproject.github.io/latest/getting_started/build-guide/build-with-zephyr.html)
 - [SOF plugin (sof/tools/plugin/README)](https://github.com/thesofproject/sof/tree/main/tools/plugin): notably the `sof-pipe` daemon.
 - [SOF testbench (sof/tools/testbench/README.md)](https://github.com/thesofproject/sof/blob/main/tools/testbench/README.md)
+
+### Source code
+
+- [sound/soc/sof/topology.c](https://elixir.bootlin.com/linux/v6.16/source/sound/soc/sof/topology.c#L2483): for topology loading.
+- [sound/soc/soc-topology.c](https://elixir.bootlin.com/linux/v6.16/source/sound/soc/soc-topology.c#L2001): general topology loading helpers.
+- [sound/soc/soc-topology-test.c](https://elixir.bootlin.com/linux/v6.16/source/sound/soc/soc-topology-test.c#L53): KUnit tests for topology helpers.
