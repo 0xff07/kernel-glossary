@@ -146,6 +146,9 @@ nav:
     - Other System-wide suspend topics:
       - Modern Standby (S0ix): pm/s0ix.md
       - ACPI S-States: pm/acpi-s-states.md
+    - ACPI-related topics:
+      - ACPI power management objects: pm/acpi-pm-objects.md
+      - ACPI debugging: pm/acpi-debugging.md
     - Device Runtime Power Management:
       - Runtime PM: pm/runtime-pm.md
       - PM Domain (genpd): pm/pm-domain.md
