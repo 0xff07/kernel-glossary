@@ -212,3 +212,30 @@ nav:
     - Platform-specific:
       - Sound Open Firmware (SoF): sound/sof.md
       - HDA: sound/hda.md
+  - PCIe:
+    - LTSSM basics:
+      - LTSSM overview: pci/ltssm-overview.md
+      - TS1 and TS2: pci/ts1-ts2.md
+    - LTSSM states:
+      - Detect: pci/ltssm-detect.md
+      - Polling: pci/ltssm-polling.md
+      - Configuration: pci/ltssm-configuration.md
+      - Recovery: pci/ltssm-recovery.md
+      - Recovery.Equalization: pci/link-equalization.md
+    - LTSSM scenarios:
+      - Link speed change: pci/link-speed-change.md
+      - Link width change: pci/link-width-change.md
+    - Power Management:
+      - D-states: pci/d-states.md
+      - L0s (by ASPM): pci/l0s.md
+      - L1 (by ASPM): pci/l1-aspm.md
+      - L1 (by PCI-PM): pci/l1-pcipm.md
+      - L1 substates: pci/l1-substates.md
+      - L2/L3 Ready: pci/l2-l3-ready.md
+      - L2: pci/l2.md
+      - L3: pci/l3.md
+      - PME: pci/pme.md
+      - D3Cold: pci/d3cold.md
+      - LTR: pci/ltr.md
+    - Error reporting:
+      - AER: pci/aer.md
