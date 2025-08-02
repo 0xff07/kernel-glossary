@@ -43,6 +43,7 @@ nav:
       - Kernel binaries: workflows/kernel-binaries.md
     - AI tooling:
       - AUTOSEL: workflows/autosel.md
+      - PatchWise: workflows/patchwise.md
       - AI-assisted coding: workflows/ai-assisted-coding.md
   - Debugging:
     - Overview:
