@@ -40,7 +40,7 @@ To use it with Claude Code, simply clone it into the `.claude/skills/`:
 
 ```
 # In kernel root
-git clone https://0xff07.github.io/kernel-glossary .claude/skills/kernel-glossary
+git clone https://github.com/0xff07/kernel-glossary.git ./.claude/skills/kernel-glossary
 ```
 
 Launch Claude Code in the root directory of kernel source code:
