@@ -40,7 +40,21 @@ Construct the output path: `${CLAUDE_SKILL_DIR}/docs/<dir>/<topic-slug>.md`
 
 If the output directory does not exist, create it.
 
-### 3. Search local kernel source code
+### 3. Check for an existing page
+
+Check whether a file already exists at the computed output path (`${CLAUDE_SKILL_DIR}/docs/<dir>/<topic-slug>.md`).
+
+If the file exists, proceed to step 4.
+
+If no file exists, stop and ask the user what to do. State the topic and subsystem you identified, then present these options:
+
+1. Search the local kernel source tree and generate a full page (steps 4-9).
+2. Create a minimal stub page now, without searching the kernel tree.
+3. Cancel.
+
+Wait for the user to choose before proceeding.
+
+### 4. Search local kernel source code
 
 Search the local kernel source tree (not the web) for relevant code. Use Grep and Glob to find:
 
@@ -52,7 +66,7 @@ Search the local kernel source tree (not the web) for relevant code. Use Grep an
 
 Record exact file paths and line numbers for every function, struct, or macro found.
 
-### 4. Construct GitHub URLs
+### 5. Construct GitHub URLs
 
 Use the base URL: `https://github.com/torvalds/linux/blob/v6.19/`
 
@@ -71,7 +85,7 @@ For kernel documentation files:
 [`Documentation/subsystem/file.rst`](https://github.com/torvalds/linux/blob/v6.19/Documentation/subsystem/file.rst): brief description
 ```
 
-### 5. Identify specifications
+### 6. Identify specifications
 
 Check source code comments and headers for references to specification chapters and sections. Map the subsystem to its known specifications using the `spec` field from the Subsystem Map.
 
@@ -79,7 +93,7 @@ Format each entry as: `<spec name>, section <N.N>: <section title>`
 
 If no specification applies, leave the SPECIFICATIONS section present but empty.
 
-### 6. Generate the page
+### 7. Generate the page
 
 Follow the template structure exactly. The page must contain these sections in order:
 
@@ -94,7 +108,7 @@ Follow the template structure exactly. The page must contain these sections in o
 9. `## <section6_heading>` (from Subsystem Map; omit entirely if set to "none")
 10. `## DETAILS`
 
-### 7. Writing rules (mandatory)
+### 8. Writing rules (mandatory)
 
 All generated content must follow these rules:
 
@@ -107,7 +121,7 @@ All generated content must follow these rules:
 - Do not add any tags other than `"verification-needed"`
 - `Documentation/` references go in KERNEL DOCUMENTATION, never in OTHER SOURCES
 
-### 8. Save the page
+### 9. Save the page
 
 Write the completed page to: `${CLAUDE_SKILL_DIR}/docs/<dir>/<topic-slug>.md`
 
