@@ -2,9 +2,6 @@
 name: kernel-glossary
 description: >
   Generate structured Linux kernel documentation pages for this knowledge base.
-  Triggered by phrases like "document", "create a page", "kernel doc page",
-  "sample certain part of the things", or any request to produce a kernel subsystem documentation
-  article.
 user-invocable: true
 ---
 
